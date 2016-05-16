@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32674E981CE5666E00C6E85D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32674E961CE5666E00C6E85D /* MainViewController.m */; };
+		32674E991CE5666E00C6E85D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32674E971CE5666E00C6E85D /* MainViewController.xib */; };
+		32674E9D1CE595CB00C6E85D /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 32674E9C1CE595CB00C6E85D /* CustomButton.m */; };
+		32674EA51CE5ADF600C6E85D /* drink3.png in Resources */ = {isa = PBXBuildFile; fileRef = 32674EA11CE5ADF600C6E85D /* drink3.png */; };
+		32674EA61CE5ADF600C6E85D /* drink4.png in Resources */ = {isa = PBXBuildFile; fileRef = 32674EA21CE5ADF600C6E85D /* drink4.png */; };
+		32674EA71CE5ADF600C6E85D /* drink1.png in Resources */ = {isa = PBXBuildFile; fileRef = 32674EA31CE5ADF600C6E85D /* drink1.png */; };
+		32674EA91CE5AE4900C6E85D /* drink2.png in Resources */ = {isa = PBXBuildFile; fileRef = 32674EA81CE5AE4900C6E85D /* drink2.png */; };
+		32674EAC1CE5AE9300C6E85D /* DrinkObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 32674EAB1CE5AE9300C6E85D /* DrinkObject.m */; };
+		32674EAF1CE5AE9C00C6E85D /* TrayBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 32674EAE1CE5AE9C00C6E85D /* TrayBox.m */; };
+		32674EB21CE5AEA200C6E85D /* Casher.m in Sources */ = {isa = PBXBuildFile; fileRef = 32674EB11CE5AEA200C6E85D /* Casher.m */; };
+		32AFE5621CE5602200008951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AFE5611CE5602200008951 /* main.m */; };
+		32AFE5651CE5602200008951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AFE5641CE5602200008951 /* AppDelegate.m */; };
+		32AFE56B1CE5602200008951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AFE5691CE5602200008951 /* Main.storyboard */; };
+		32AFE56D1CE5602200008951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AFE56C1CE5602200008951 /* Assets.xcassets */; };
+		32AFE5701CE5602200008951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AFE56E1CE5602200008951 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32674E951CE5666E00C6E85D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		32674E961CE5666E00C6E85D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		32674E971CE5666E00C6E85D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		32674E9B1CE595CB00C6E85D /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		32674E9C1CE595CB00C6E85D /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		32674EA11CE5ADF600C6E85D /* drink3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink3.png; sourceTree = "<group>"; };
+		32674EA21CE5ADF600C6E85D /* drink4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink4.png; sourceTree = "<group>"; };
+		32674EA31CE5ADF600C6E85D /* drink1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink1.png; sourceTree = "<group>"; };
+		32674EA81CE5AE4900C6E85D /* drink2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink2.png; sourceTree = "<group>"; };
+		32674EAA1CE5AE9300C6E85D /* DrinkObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkObject.h; sourceTree = "<group>"; };
+		32674EAB1CE5AE9300C6E85D /* DrinkObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkObject.m; sourceTree = "<group>"; };
+		32674EAD1CE5AE9C00C6E85D /* TrayBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrayBox.h; sourceTree = "<group>"; };
+		32674EAE1CE5AE9C00C6E85D /* TrayBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrayBox.m; sourceTree = "<group>"; };
+		32674EB01CE5AEA200C6E85D /* Casher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Casher.h; sourceTree = "<group>"; };
+		32674EB11CE5AEA200C6E85D /* Casher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Casher.m; sourceTree = "<group>"; };
+		32AFE55D1CE5602200008951 /* VendingMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendingMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AFE5611CE5602200008951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32AFE5631CE5602200008951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32AFE5641CE5602200008951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32AFE56A1CE5602200008951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32AFE56C1CE5602200008951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32AFE56F1CE5602200008951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32AFE5711CE5602200008951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32AFE55A1CE5602200008951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32674E9A1CE5957B00C6E85D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				32674E9B1CE595CB00C6E85D /* CustomButton.h */,
+				32674E9C1CE595CB00C6E85D /* CustomButton.m */,
+				32674EA81CE5AE4900C6E85D /* drink2.png */,
+				32674EA11CE5ADF600C6E85D /* drink3.png */,
+				32674EA21CE5ADF600C6E85D /* drink4.png */,
+				32674EA31CE5ADF600C6E85D /* drink1.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		32674EB31CE5AEC100C6E85D /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				32674EAA1CE5AE9300C6E85D /* DrinkObject.h */,
+				32674EAB1CE5AE9300C6E85D /* DrinkObject.m */,
+				32674EAD1CE5AE9C00C6E85D /* TrayBox.h */,
+				32674EAE1CE5AE9C00C6E85D /* TrayBox.m */,
+				32674EB01CE5AEA200C6E85D /* Casher.h */,
+				32674EB11CE5AEA200C6E85D /* Casher.m */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		32AFE5541CE5602100008951 = {
+			isa = PBXGroup;
+			children = (
+				32AFE55F1CE5602200008951 /* VendingMachine */,
+				32AFE55E1CE5602200008951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32AFE55E1CE5602200008951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32AFE55D1CE5602200008951 /* VendingMachine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32AFE55F1CE5602200008951 /* VendingMachine */ = {
+			isa = PBXGroup;
+			children = (
+				32674E9A1CE5957B00C6E85D /* UI */,
+				32674EB31CE5AEC100C6E85D /* Object */,
+				32AFE5631CE5602200008951 /* AppDelegate.h */,
+				32AFE5641CE5602200008951 /* AppDelegate.m */,
+				32674E951CE5666E00C6E85D /* MainViewController.h */,
+				32674E961CE5666E00C6E85D /* MainViewController.m */,
+				32674E971CE5666E00C6E85D /* MainViewController.xib */,
+				32AFE5691CE5602200008951 /* Main.storyboard */,
+				32AFE56C1CE5602200008951 /* Assets.xcassets */,
+				32AFE56E1CE5602200008951 /* LaunchScreen.storyboard */,
+				32AFE5711CE5602200008951 /* Info.plist */,
+				32AFE5601CE5602200008951 /* Supporting Files */,
+			);
+			path = VendingMachine;
+			sourceTree = "<group>";
+		};
+		32AFE5601CE5602200008951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32AFE5611CE5602200008951 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32AFE55C1CE5602200008951 /* VendingMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AFE5741CE5602200008951 /* Build configuration list for PBXNativeTarget "VendingMachine" */;
+			buildPhases = (
+				32AFE5591CE5602200008951 /* Sources */,
+				32AFE55A1CE5602200008951 /* Frameworks */,
+				32AFE55B1CE5602200008951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendingMachine;
+			productName = VendingMachine;
+			productReference = 32AFE55D1CE5602200008951 /* VendingMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32AFE5551CE5602100008951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LEEJIHO;
+				TargetAttributes = {
+					32AFE55C1CE5602200008951 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 32AFE5581CE5602100008951 /* Build configuration list for PBXProject "VendingMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32AFE5541CE5602100008951;
+			productRefGroup = 32AFE55E1CE5602200008951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32AFE55C1CE5602200008951 /* VendingMachine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32AFE55B1CE5602200008951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AFE5701CE5602200008951 /* LaunchScreen.storyboard in Resources */,
+				32674EA61CE5ADF600C6E85D /* drink4.png in Resources */,
+				32AFE56D1CE5602200008951 /* Assets.xcassets in Resources */,
+				32674EA51CE5ADF600C6E85D /* drink3.png in Resources */,
+				32AFE56B1CE5602200008951 /* Main.storyboard in Resources */,
+				32674EA71CE5ADF600C6E85D /* drink1.png in Resources */,
+				32674E991CE5666E00C6E85D /* MainViewController.xib in Resources */,
+				32674EA91CE5AE4900C6E85D /* drink2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32AFE5591CE5602200008951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32674EAC1CE5AE9300C6E85D /* DrinkObject.m in Sources */,
+				32674E9D1CE595CB00C6E85D /* CustomButton.m in Sources */,
+				32AFE5651CE5602200008951 /* AppDelegate.m in Sources */,
+				32674EAF1CE5AE9C00C6E85D /* TrayBox.m in Sources */,
+				32674E981CE5666E00C6E85D /* MainViewController.m in Sources */,
+				32674EB21CE5AEA200C6E85D /* Casher.m in Sources */,
+				32AFE5621CE5602200008951 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32AFE5691CE5602200008951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AFE56A1CE5602200008951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32AFE56E1CE5602200008951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AFE56F1CE5602200008951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32AFE5721CE5602200008951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32AFE5731CE5602200008951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32AFE5751CE5602200008951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devkey.VendingMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32AFE5761CE5602200008951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devkey.VendingMachine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32AFE5581CE5602100008951 /* Build configuration list for PBXProject "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AFE5721CE5602200008951 /* Debug */,
+				32AFE5731CE5602200008951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AFE5741CE5602200008951 /* Build configuration list for PBXNativeTarget "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AFE5751CE5602200008951 /* Debug */,
+				32AFE5761CE5602200008951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32AFE5551CE5602100008951 /* Project object */;
+}
