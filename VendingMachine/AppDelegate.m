@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
+//#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,25 +24,25 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"didFinishLaunchingWithOptions : %@, application : %@", launchOptions, application);
-    // 윈도우 객체 생성
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    NSLog(@"didFinishLaunchingWithOptions : %@, application : %@", launchOptions, application);
+//     //윈도우 객체 생성
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    
+//    // 메인 VC 객체 생성
+//    MainViewController *vc = [[MainViewController alloc] init];
+//    
+//    // 메인 VC 배경 색상
+//    [vc.view setBackgroundColor:[UIColor  whiteColor]];
+//    
+//    // window root로 vc설정
+//    self.window.rootViewController = vc;
+//    
+//    // 화면 갱신
+//    [self.window makeKeyAndVisible];
+//    
     
-    // 메인 VC 객체 생성
-    MainViewController *vc = [[MainViewController alloc] init];
     
-    // 메인 VC 배경 색상
-    [vc.view setBackgroundColor:[UIColor  whiteColor]];
-    
-    // window root로 vc설정
-    self.window.rootViewController = vc;
-    
-    // 화면 갱신
-    [self.window makeKeyAndVisible];
-    
-    
-    
-    return NO;
+    return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

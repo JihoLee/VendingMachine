@@ -10,9 +10,9 @@
 
 @interface CustomButton()
 
-@property(nonatomic, weak) UIImageView *drinkImg;
-@property(nonatomic, weak) UILabel *titleLb;
-@property(nonatomic, weak) UIButton *actionBtn;
+@property(nonatomic, weak) UIImageView *drinkImage;
+@property(nonatomic, weak) UILabel *titleLabel;
+@property(nonatomic, weak) UIButton *actionButton;
 
 @end
 
@@ -29,45 +29,45 @@
 - (void)createView {
     
     {
-        UIImageView *drinkImg = [[UIImageView alloc] init];
-        [self addSubview:drinkImg];
-        self.drinkImg = drinkImg;
+        UIImageView *drinkImage = [[UIImageView alloc] init];
+        [self addSubview:drinkImage];
+        self.drinkImage = drinkImage;
     }
     
     {
-        UILabel *titleLb = [[UILabel alloc] init];
-        titleLb.textAlignment = NSTextAlignmentCenter;
-        titleLb.textColor = [UIColor blackColor];
+        UILabel *titleLabel = [[UILabel alloc] init];
+        titleLabel.textAlignment = NSTextAlignmentCenter;
+        titleLabel.textColor = [UIColor blackColor];
     
-        titleLb.font = [UIFont systemFontOfSize:15];
-        [self addSubview:titleLb];
-        self.titleLb = titleLb;
+        titleLabel.font = [UIFont systemFontOfSize:15];
+        [self addSubview:titleLabel];
+        self.titleLabel = titleLabel;
     }
     
-    UIButton *actionBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [actionBtn addTarget:self action:@selector(onTouchUpInsideActionBtn:) forControlEvents:UIControlEventTouchUpInside];
-    [self addSubview:actionBtn];
-    self.actionBtn = actionBtn;
+    UIButton *actionButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [actionButton addTarget:self action:@selector(onTouchUpInsideActionBtn:) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:actionButton];
+    self.actionButton = actionButton;
     
 }
 
 - (void)updateLayout {
-    [self.drinkImg setFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height -22)];
-    [self.titleLb setFrame:CGRectMake(0, self.frame.size.height-22, self.frame.size.width, 22)];
-    [self.actionBtn setFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+    [self.drinkImage setFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height -22)];
+    [self.titleLabel setFrame:CGRectMake(0, self.frame.size.height-22, self.frame.size.width, 22)];
+    [self.actionButton setFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
     
     
 }
 
 - (void)setTitle:(NSString *)title {
     
-    [self.titleLb setText:title];
+    [self.titleLabel setText:title];
     
 }
 
 - (void)setImageWithName:(NSString *)imageName {
     
-    [self.drinkImg setImage:[UIImage imageNamed:imageName]];
+    [self.drinkImage setImage:[UIImage imageNamed:imageName]];
 }
 
 - (void)onTouchUpInsideActionBtn:(UIButton *)sender {
